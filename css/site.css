@@ -1,9 +1,12 @@
-a{
+#lab_2 a{
   color:yellow;
 }
-a{
+#lab_2{
   color:yellow;
 }
-.lab{
-  color:green;
+.lab a{
+  color:red;
+}
+#lab_3 a, #lab_4 a, #lab_5 a, #lab_6 a{
+  color:red;
 }
