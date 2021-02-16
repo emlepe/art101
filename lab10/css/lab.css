@@ -2,10 +2,10 @@ body{
   background: lightgrey;
 }
 h1{
-  text-align: left;
+  text-align: center;
   font-family: serif;
   font-size: 30px;
-  border: 10px grey;
+  border: outset 10px grey;
   margin-left: 550px;
   margin-right: 550px;
 }
