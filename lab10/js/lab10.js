@@ -1,8 +1,8 @@
-/*
- * Author:  Ethan Lepe <emlepe@ucsc.edu>
- * Created:  15 February
- * License:  Public Domain
- */
+//*
+// * Author:  Ethan Lepe <emlepe@ucsc.edu>
+// * Created:  15 February
+// * License:  Public Domain
+// *
 
 // Javascript Events and Forms
 function sortUserName() {
