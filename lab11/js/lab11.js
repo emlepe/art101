@@ -5,7 +5,6 @@
  */
  // Libraries & jquery
 
-
  // add event handler for red button
 $("button.red").click(function(){
   // remove possible existing class
