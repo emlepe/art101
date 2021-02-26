@@ -15,7 +15,7 @@
      return "Ravenclaw";
    }
    else if (mod == 1) {
-    return "Gryffindor";
+    return "Gryffindor";Yeah 
    }
    else if (mod == 2) {
     return "Hufflepuff";
