@@ -21,7 +21,7 @@
         console.log(i);
       }
     }
-  }
+
   function fizzBuzzBoom(maxNums; factorObj) {
     //iterate over all of out numbers
     for (var num=0; num<maxNums; num++) {
