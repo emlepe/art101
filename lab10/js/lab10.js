@@ -5,21 +5,31 @@
 // *
 
 // Javascript Events and Forms
-function sortUserName() {
+var button =document.getElementById('my-button');
+function sayMyName() {
+   var h2 =document.querySelector('h2');
+   h2.innerText ="Hello "+ name;
+ }
+   button.addEventListener('click', sayMyName);
+
+ // sortUserName - a function that takes user input and sorts the letters
+ // of their name
+ function sortUserName() {
+    var userName =
     console.log("userName =", userName);
-    // split string to array
+
     var nameArray = userName.split('');
     console.log("nameArray =", nameArray);
-    // sort the array
+
     var nameArraySort = nameArray.sort();
     console.log("nameArraySort =", nameArraySort);
 
     var nameSorted = nameArraySort.join('');
     console.log("nameSorted =", nameSorted);
-    // userName.toLower().split("").sort().join("")
+
     return nameSorted;
 }
 
 // Output
-document.writeln("Thar output lay straight ahead lads: ",
+document.writeln("Why hello there, I've fixed your name: ",
   sortUserName(), "</br>");
